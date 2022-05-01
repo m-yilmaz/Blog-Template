@@ -1,0 +1,62 @@
+.container-all {
+    max-width: 1600px;
+}
+
+.mylink {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+.mylink:hover {
+    text-decoration: underline;
+}
+
+.left-menu-list {
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.gallery img:hover {
+    opacity: .5;
+}
+
+.progress-skill {
+    height: 1.5rem;
+}
+
+.list-charge {
+    opacity: .7;
+}
+
+.list-charge:hover {
+    opacity: 1;
+}
+
+.contact {
+    margin-left: -.75rem;
+    margin-right: -.75rem;
+}
+
+footer {
+    margin-left: -.75rem;
+    margin-right: -.75rem;
+}
+
+.list-blog-posts>li:hover {
+    background-color: var(--bs-gray-400);
+}
+
+.tags>span {
+    display: inline-block;
+    background-color: var(--bs-gray-500);
+    font-size: .8rem;
+    margin-bottom: .75rem;
+    padding: 0 .5rem;
+}
+
+.tags>span.active {
+    background-color: var(--bs-dark);
+    color: var(--bs-white);
+    font-size: 1rem;
+}
